@@ -2,7 +2,7 @@
 
 An interactive educational platform demonstrating core blockchain concepts including immutability, consensus mechanisms, smart contracts, supply chain tracking, and cryptocurrency transactions.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -15,7 +15,7 @@ An interactive educational platform demonstrating core blockchain concepts inclu
 - [Available Demos](#available-demos)
 - [Troubleshooting](#troubleshooting)
 
-## ✨ Features
+## Features
 
 ### Core Concepts
 - **Immutability & Hashing**: Visualize how cryptographic hashing creates an unbreakable chain
@@ -27,7 +27,7 @@ An interactive educational platform demonstrating core blockchain concepts inclu
 - **Supply Chain Tracking**: Track products from origin to consumer
 - **Smart Contracts**: Deploy and interact with self-executing contracts
 
-## 🔧 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
 
@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed on your system:
 3. **Git** (optional, for cloning)
    - Download from: https://git-scm.com/
 
-## 📦 Installation
+## Installation
 
 ### Step 1: Clone or Download the Project
 
@@ -83,7 +83,7 @@ npm install
 cd ..
 ```
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Option 1: Quick Start (Recommended)
 
@@ -153,7 +153,7 @@ You should see:
 
 Navigate to: **http://localhost:3000**
 
-## 🔗 Running Ganache Blockchain
+## Running Ganache Blockchain
 
 ### Using npm Script (Recommended)
 
@@ -186,7 +186,7 @@ curl http://localhost:8545 -X POST -H "Content-Type: application/json" --data '{
 
 You should see a response with the current block number.
 
-## 📜 Deploying Smart Contracts (Truffle)
+## Deploying Smart Contracts (Truffle)
 
 ### Deploy the TransactionManager Contract
 
@@ -269,14 +269,14 @@ Expected output:
 ```
 Checking contract deployment on Ganache...
 
-✅ Contract is deployed!
+Contract is deployed!
 Contract Address: 0x25539b73108Fed40b65065620eA8b8E35511D89F
 Code Size: 6234 bytes
 Owner: 0x12CAC184EaF07fbf21C37a3154C5E63B9ADcb503
 Transaction Counter: 0
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Test Truffle Smart Contracts
 
@@ -307,7 +307,7 @@ This runs the comprehensive test suite for the TransactionManager contract:
 npm test
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 blockchain-demonstration-plan/
@@ -343,7 +343,7 @@ blockchain-demonstration-plan/
 └── README.md                    # This file
 ```
 
-## 🎯 Available Demos
+## Available Demos
 
 ### 1. Immutability & Hashing Demo
 - **Hashing Tab**: Enter text and see its cryptographic hash
@@ -374,7 +374,7 @@ blockchain-demonstration-plan/
 - See contract state changes
 - View transaction history
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Issue: "Port 3000 is already in use"
 
@@ -447,7 +447,7 @@ rm -rf .next
 npm run dev
 ```
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Truffle Documentation
 - Truffle Docs: https://trufflesuite.com/docs/truffle/
@@ -461,7 +461,7 @@ npm run dev
 - Ethereum: https://ethereum.org/en/developers/docs/
 - Solidity: https://docs.soliditylang.org/
 
-## 🛠️ Development Commands
+## Development Commands
 
 ```bash
 # Install dependencies
@@ -496,15 +496,15 @@ npm test          # Run tests
 npx truffle console  # Interactive console
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## License
 
 This project is for educational purposes.
 
-## 🎓 Educational Use
+## Educational Use
 
 This platform is designed for:
 - Learning blockchain fundamentals
@@ -516,6 +516,6 @@ This platform is designed for:
 
 ---
 
-**Happy Learning! 🚀**
+**Happy Learning!**
 
 For questions or issues, please open an issue on the repository.
