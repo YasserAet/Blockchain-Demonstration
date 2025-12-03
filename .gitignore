@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Truffle
+truffle-contracts/build/
+truffle-contracts/node_modules/
+
+# Ganache
+.ganache/
+
+# Smart Contract ABIs (optional - uncomment if you don't want to commit them)
+# *.json
+# !package.json
+# !package-lock.json
+# !tsconfig.json
+# !components.json
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Lock files (keep package-lock.json, remove others if preferred)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
