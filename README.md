@@ -495,27 +495,3 @@ npm run migrate    # Deploy contracts
 npm test          # Run tests
 npx truffle console  # Interactive console
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is for educational purposes.
-
-## Educational Use
-
-This platform is designed for:
-- Learning blockchain fundamentals
-- Understanding consensus mechanisms
-- Visualizing cryptographic hashing
-- Exploring smart contract development
-- Teaching supply chain transparency
-- Demonstrating cryptocurrency transactions
-
----
-
-**Happy Learning!**
-
-For questions or issues, please open an issue on the repository.
